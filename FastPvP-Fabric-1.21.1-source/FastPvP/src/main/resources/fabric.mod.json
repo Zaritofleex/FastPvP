@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fastpvp",
+  "version": "${version}",
+  "name": "FastPvP",
+  "description": "Fast Crystal and Fast Anchor client-side PvP mod.",
+  "authors": ["FastPvP"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fastpvp.FastPvPClient"]
+  },
+  "mixins": ["fastpvp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
